@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: eggScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"yippiedAlready","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":125.9983,"y":77.23772},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"63a3235c-685f-4ca4-b8a8-151988a6942e","$version":"A","$type":"Unity.VisualScripting.Start"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"HappyCelebration","$type":"System.String"}},"position":{"x":-177.0,"y":38.0},"guid":"8edf2866-e3fe-4006-b4f3-41590055b2d9","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"12"},{"chainable":false,"parameterNames":[],"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.ParticleSystem","targetTypeName":"UnityEngine.ParticleSystem","$version":"A"},"defaultValues":{"target":null},"position":{"x":264.0,"y":-26.0},"guid":"39aa4a88-6878-4dec-8111-922e9ad9c423","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"yippiedAlready","$type":"System.String"}},"position":{"x":-88.0,"y":211.0},"guid":"10d24f55-16b8-46d1-a5f6-39da4206664e","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"yippieConfetti","$type":"System.String"},"object":null},"position":{"x":150.0,"y":176.0},"guid":"941154c3-5c12-4fc4-8a82-eccbb9aa4b7a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"39198866-6aae-49d6-9598-c938a6d939b2","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"84beb2a6-7cff-4930-b709-44558f108ee6","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
