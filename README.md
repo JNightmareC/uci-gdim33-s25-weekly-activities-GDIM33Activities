@@ -13,6 +13,6 @@ Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
 
 
 ## W2
-Write your W2 Devlog here.
+Write your W2 Devlog here. test
 
 Continue adding additional headers below this one for future weeks and future activities.
