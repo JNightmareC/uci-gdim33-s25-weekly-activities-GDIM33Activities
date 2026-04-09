@@ -9,7 +9,8 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+<img width="960" height="720" alt="My breakdown" src="https://github.com/user-attachments/assets/92d06c0e-b874-4ff6-ab33-bc22badaee9a" />
+
 
 
 ## W2
