@@ -45,5 +45,12 @@ Finshed in class activity
 - The players got a bit confused at the fact they could move in all directions, so perhaps I could add a better camera angle to indicate that players can move in all planes other than the X axis. 
 - They noticed that after you collect the cube, then talk to the NPC after already talking to them with the cube in their inventory one time already, it reverts to telling them that the need to go get the object again, the dialogue only had a small bug and that is it. 
 
+### Activity 2
+1. A writer would be able to just add more dialouge without writing any code. They would just need to keep adding more nodes to connect to that NPC text's reply options, and responces. The only thing they would probably need to have coded for them is it they want multiple NPC lines in one Node. 
+2. Realistically there is no limit of dialouge nodes that writers can make, they would just need to be able to keep track of responces, but logistically they could just keep going, interweving responces as long as they want.
+3. Regenerate nodes basically just adds new "packages" you want to use with your code, those packages are new nodes you want to use, so your scripting graph knows what functions you want to acsess and use, and where to find it. It updates the options you have at your disposal, it's just happening manually every time you need to add a new option.
+4. <img width="3024" height="4032" alt="IMG_6824" src="https://github.com/user-attachments/assets/4b0509a0-6071-4726-933d-77e175a9454c" />
+<img width="3024" height="4032" alt="IMG_6823" src="https://github.com/user-attachments/assets/a4017c72-f0a6-45d4-ac2b-8cf963025c9f" />
+
 
  
