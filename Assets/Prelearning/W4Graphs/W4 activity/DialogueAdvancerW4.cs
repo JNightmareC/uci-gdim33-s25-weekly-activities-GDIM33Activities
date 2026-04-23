@@ -1,14 +1,19 @@
 using UnityEngine;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 
 namespace W4Activity
 {
     public class DialogueAdvancerW4 : MonoBehaviour
     {
+        public DialogueNodeW4 _startNode;
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
         public static DialogueAdvancerW4 _Instance {get; private set;}
-
+        void Start()
+        {
+            ChooseDialogue(_startNode);
+        }
         // More Singleton stuff
         // do not edit this method
         private void Awake() {

@@ -12,4 +12,7 @@ public class DialogueNode : ScriptableObject
 
     [Tooltip("[Optional] The dialogue options for the player's response, and what node each response leads to.")]
     public List<PlayerReply> ReplyOptions;
+
+    public List<int> _nodeNumber;
+
 }
