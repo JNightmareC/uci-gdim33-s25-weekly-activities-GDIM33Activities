@@ -25,4 +25,25 @@ Finshed in class activity
 2. One debug node that helped me the most was the one on the Button_OK game object. It helped me to realize that my transition wasn't being moved out of in order to get the walrus back into the idle state. Because my Debug wasn't going off, I was able to check that transition node, I fixed the typo, and then The debug log worked and stated that I had clickeed the ok button, and that it exited out of the speach box, signifying everthing working correctly.
 3. I think it would be releveant to my verticle slide as I need to make sure players are able to stop moving, and interact with the UI dialouge prompts. I don't want players to be able to move away from the NPC while they are still technically talking to them, it would ruin the atmosphere.
 4. The game state is super relevant to me, specifically to animate the player moving, collecting an item, and talkig to NPC's. It would control the ability for the player to actually move when certain states are active, that's how I persive me using game states at least. I need it to be able to scale and organize my code better, and so I can intertwine multiple graphs together to get an interconnected network (like how player states will effect and be effected by NPC states, and Items). 
+
+
+ ## W4
+ 
+ ### Activity 1
+ 
+ Current features: Currently the player can move, hover over objects to highlight them, collect a cube, and talk to an NPC that has multiple states for a conversation based on how many times a player has talked to them, and what they are holding. 
+ 
+ Playtesting goal: To figure out if there are any bugs for the dialouge on the NPC. 
+ 
+ Playtesters: Giovanni Alexander Solorio, Joshua Paxton
+
+ PLaytesting notes:
+ 
+- I figure now that I need an indicator for what keys to use, as playtesters instinctually went to arrow keys instead of WASD.
+- Players seemed to really enjoy the small prototype, they thought the visuals were fun, and the dialogue silly.
+- There needs to be a blocker to stop player from moving off the world plane, as they tried to walk off of a mountain, and were able to sucseed. 
+- The players got a bit confused at the fact they could move in all directions, so perhaps I could add a better camera angle to indicate that players can move in all planes other than the X axis. 
+- They noticed that after you collect the cube, then talk to the NPC after already talking to them with the cube in their inventory one time already, it reverts to telling them that the need to go get the object again, the dialogue only had a small bug and that is it. 
+
+
  
