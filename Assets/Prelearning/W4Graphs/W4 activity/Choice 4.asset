@@ -17,4 +17,4 @@ MonoBehaviour:
   ReplyOptions:
   - line: I get thet man, I'll go along with it
     nextNode: {fileID: 11400000, guid: 91c1b8b7b4df4496a906855cfb30f4c1, type: 2}
-  _nodeNumber: 5
+  _nodeNumber: 4

@@ -22,4 +22,4 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: f1b4d7b90f2b14aa6b5f5617b698e2f0, type: 2}
   - line: Who the hell is the color clown?
     nextNode: {fileID: 11400000, guid: fd0e9d6f45dbc4ed7ba7c56049471032, type: 2}
-  _nodeNumber: 1
+  _nodeNumber: 0
