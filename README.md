@@ -75,6 +75,9 @@ Detailed step:
 10. do the same thing for the talking animation, in the verticle, then hook it up to the idle node to check if it works and looks correctly
 11. then move the talking animation to the talking state node.
 
+
+### Activity 2
+
 Today I was able to make a new scripting machine to make two new animations states for my NPC. I created a talking animation in unity and hooked it up to the machine, and a idle animation also animated in unity, and added to the machine as well. Another thing I was able to acomplish was the fixing of the player state machine in order to allow them to play a "pickup" animation whenever the player clicks on a collctable object, practically just adding a new state to that state machine. Overall, I made a lot of progress. 
 
 
