@@ -54,5 +54,28 @@ Finshed in class activity
 
 
 
+## W5 
+
+### Activity 1
+Basic steps:
+
+1. Make a state machine that has 2 states to move into and two transitions to move in and out of each state
+2. make animations on a key machine in Unity (squash and stretch)
+4. add transition conditions and animations into the transition nodes and main block nodes
+
+Detailed step:
+1. make a state machine on the NPC's graph with two states labeled idle and talking
+2. connect two transitions to and from each other that transition states
+3. in the idle state, attach a debug log to make sure that that node is a constant
+4. in the talking state, add a debug log to make sure this state is also being entered when the state is transfered out of
+5. in the node going from idle to talking, attach nodes that check conditions from a C# script called Full Dialouge in the AdvanceDialouge() meathod to check a variable called "_talking"
+6. if talking is true, the graph machine will trigger the talking node and send messages to the console 
+7. if talking is false, it will go from talking state, back to idle and send messages back to the console
+8. go onto the unity animation tab, and create a new animation, squashing and stretching horizontally for the idle animation, add it to the idle node to play animation
+10. do the same thing for the talking animation, in the verticle, then hook it up to the idle node to check if it works and looks correctly
+11. then move the talking animation to the talking state node.
+
+
+
 
  
