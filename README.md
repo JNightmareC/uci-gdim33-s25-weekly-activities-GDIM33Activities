@@ -81,4 +81,40 @@ Detailed step:
 Today I was able to make a new scripting machine to make two new animations states for my NPC. I created a talking animation in unity and hooked it up to the machine, and a idle animation also animated in unity, and added to the machine as well. Another thing I was able to acomplish was the fixing of the player state machine in order to allow them to play a "pickup" animation whenever the player clicks on a collctable object, practically just adding a new state to that state machine. Overall, I made a lot of progress. 
 
 
+## W6
+
+### Activity 1
+ 
+ What's new: I have expanded the enviroment, 2 new "trinkets", added new dialouge, added a rudimentary gate, and a way to pass that gate with the complicating feature. 
+ 
+ Playtesting goal: To see if there are any bugs with the dialoluge branches when you pick up multiple items and talk to NPC
+
+ Link: https://jnightmarec.itch.io/my-darling-star-milestone-2-vertical-slice
+ 
+ Playtesters: Giovanni Alexander Solorio, Joshua Paxton
+
+ PLaytesting notes:
+
+- Player liked the vibes a lot
+- camera clips through the walls a little bit (not really a concern for now)
+- Arrow keys still work, which they shouldn’t 
+- Need to be more intuitive 
+- Play a little text when trying to walk up to the barrier without a gift
+- Players are forced in bounds, which is good
+- No game breaking issues 
+- The state machine works 
+- They thought it was peak 
+- They needed more direction to click the gate once getting the gift
+- there were no bugs with the dialouge system
+
+
+### Activity 2
+
+1. The multiply setting makes te=he resulting color darker because the values of the RGB (0-1 for each value) will be multiplied to eacha other, and if they're percentages, or in this case decimal fractions, multiplyinga number by a decimal it will get closer to 0 (essentially you are dividing). The closer you get to 0, the closer you are to black, hence the color multiply is applied to is darker. 
+2. If you apply it to transperancy, then it works the same as an RGB change in multiply. It will divide the opacity of the Alpha values it was applied on when combining. The closer it gets to 0, the more transperent the object it, the closer to 1 the more opaque.
+3. Those shaders get UV values from each vertex on the models mesh,which all each hold some sort of UV position data that has a pixel of that texture maped out to it.
+4. I am not really into math very much, but I do agree that this is really interesting to me, especially since I want to get into 3D modeling and I really want to get to know how to do this so I can make my own shaders or textures and maps. It's pretty cool. 
+
+
+
  
