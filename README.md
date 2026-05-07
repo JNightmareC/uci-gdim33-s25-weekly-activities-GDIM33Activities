@@ -81,4 +81,36 @@ Detailed step:
 Today I was able to make a new scripting machine to make two new animations states for my NPC. I created a talking animation in unity and hooked it up to the machine, and a idle animation also animated in unity, and added to the machine as well. Another thing I was able to acomplish was the fixing of the player state machine in order to allow them to play a "pickup" animation whenever the player clicks on a collctable object, practically just adding a new state to that state machine. Overall, I made a lot of progress. 
 
 
+## W6
+
+### Activity 1
+ 
+ What's new: I have expanded the enviroment, 2 new "trinkets", added new dialouge, added a rudimentary gate, and a way to pass that gate with the complicating feature. 
+ 
+ Playtesting goal: To see if there are any bugs with the dialoluge branches when you pick up multiple items and talk to NPC
+
+ Link: https://jnightmarec.itch.io/my-darling-star-milestone-2-vertical-slice
+ 
+ Playtesters: Giovanni Alexander Solorio, Joshua Paxton
+
+ PLaytesting notes:
+
+- Player liked the vibes a lot
+- camera clips through the walls a little bit (not really a concern for now)
+- Arrow keys still work, which they shouldn’t 
+- Need to be more intuitive 
+- Play a little text when trying to walk up to the barrier without a gift
+- Players are forced in bounds, which is good
+- No game breaking issues 
+- The state machine works 
+- They thought it was peak 
+- They needed more direction to click the gate once getting the gift 
+
+
+### Activity 2
+
+
+
+
+
  
