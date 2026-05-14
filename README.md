@@ -115,6 +115,17 @@ Today I was able to make a new scripting machine to make two new animations stat
 3. Those shaders get UV values from each vertex on the models mesh,which all each hold some sort of UV position data that has a pixel of that texture maped out to it.
 4. I am not really into math very much, but I do agree that this is really interesting to me, especially since I want to get into 3D modeling and I really want to get to know how to do this so I can make my own shaders or textures and maps. It's pretty cool. 
 
+## W7 
+
+### Activity 1
+1. The data from vertex color node came from each vertext of a mesh, which has color data baked onto it.
+2. I can only assume it's blended at the edges because the vertex edges are being interpolated over the distance of the mesh.
+3. It is less detailed because instead of sampling from a texture with set pixel colors it can pool from, it is simply blending colors between vertexes relitive to each other. The reasone we would use Vertex Color to either debug, like in the activity, or we would use it for very simple objects that need colors, mainly because of storage space in a game as textures take a lot of space, and not every object needs a texture.
+4. From what I can see, there is an area on the shibas left flank where there is a green patch in th eblue randomly. This can only mean that is is pointing in a different direction than all the other faces around it.
+5. Another way you could debug and test is to input the UV map to see if anything looks off. 
+6. There is a lighting error there because the face of that specific area is facing in the wrong direction in comparison to all the other faces of that part of the model.
+7. I think the reason addative is used is because it blends the colors of the texture, with the colors of the world around it, this completely negates the color black, and because the "background" of the texture is black, it won't show up anymore. 
+
 
 
  
