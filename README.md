@@ -124,7 +124,37 @@ Today I was able to make a new scripting machine to make two new animations stat
 4. From what I can see, there is an area on the shibas left flank where there is a green patch in th eblue randomly. This can only mean that is is pointing in a different direction than all the other faces around it.
 5. Another way you could debug and test is to input the UV map to see if anything looks off. 
 6. There is a lighting error there because the face of that specific area is facing in the wrong direction in comparison to all the other faces of that part of the model.
-7. I think the reason addative is used is because it blends the colors of the texture, with the colors of the world around it, this completely negates the color black, and because the "background" of the texture is black, it won't show up anymore. 
+7. I think the reason addative is used is because it blends the colors of the texture, with the colors of the world around it, this completely negates the color black, and because the "background" of the texture is black, it won't show up anymore.
+
+
+
+## W8 
+
+### Activity 1
+1. In the build I have recently added a new NPC with new dialouge, an end screen, and added a new sprite for the gummy worm object.
+2. https://jnightmarec.itch.io/my-darling-star-milestone-3
+3. Does the art seem consistent and cute vibrent.
+
+Playtesting notes:
+
+- Player was trying to climb on everything
+- Player can open gate right after getting the ring, need to fix that 
+- There’s clipping issues, but I can’t fix that necissarally
+- lower planes players walk on 
+- Liked animations
+- liked character designs
+- vibrancy was good
+- players enjoyed it overall
+- change gate area to be a full gate so players cant clip the ground
+- dialouge works perfectly, so does end game state, overall it is much more polished than last time
+
+
+
+### Activity 2
+1. We are using them to compare values in the stencil effect by saying, first for the shiba object, that when it renders before anything else, it needs to to always be drawn and replace other things that may pass on it or around it (specifically for the outline). For the outline, it is only able to be drawn when there is not an item or object (shiba) on top of it, and will only doraw on the area around where it is supposed to be drawn. It uses the less than funciton, when there is less object/ pixels there.
+2. The shiba is being respawned twice specifically. The reason it is being redrawn twice as an opaque object, and as a stencil, is to make sure that it is always drawn before the outline stencil so the outline can verify the points where it needs to render.
+3. We don't want to multiply the color of the shadow and the value of the base texture, because we don't want to dampen and bring down the color of the actual texture itself, just it's shadow. If you multiply the two together the resulting texture is just black.
+4. It enablesand disables the effect because the effect only effects the Shiba when it is on the outline layer, so if it's on any other layer, it won't do anything at all. 
 
 
 
