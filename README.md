@@ -163,7 +163,7 @@ Playtesting notes:
 ### Acrivity 1
 We chose Minecraft
 
-### Activity 2
+
 We chose these two:
 
 Potion of nausea 
@@ -179,7 +179,13 @@ Outline
 - and you input that to the position vertex with a color node on base color
 - when it comes to changing it when its being hovered over, you can have the shader only effect a certain layer (which could be outline)
 - so when its hovered over (the block), the outline layer will be switched to, and the mesh material can be set as active
-- when its hovered off of, it is turned back to the default 
+- when its hovered off of, it is turned back to the default
+
+### Activity 2
+
+Since I was able to finish my shader, and hook it up to be usable, I was able to work on something else from my game. I improved the gameplay a bit by making one of the items a bit harder to find, by adding the ability to move a wooden block. I had to use a raycast and was able to snap the position of the gameobject to the mouse. This is just to add more chalenge to the "secret" item since it's supposed to be harder to find compared to the other items. 
+
+https://github.com/JNightmareC/VerticalSlice/commit/ef7c86d1b993b9e0dc9e516514837bd82dad3a9d
 
 
  
