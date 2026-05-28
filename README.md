@@ -158,4 +158,28 @@ Playtesting notes:
 
 
 
+## Week 9
+
+### Acrivity 1
+We chose Minecraft
+
+### Activity 2
+We chose these two:
+
+Potion of nausea 
+- we would probably get a noise gradient
+- and multiply the scrollomg of its UV's by time delta time, and the speed for however fast you want it to go
+- they you want it to interpolate randompy so it warps viably in random directions smoothly
+- You also want to have the effect to have a timer dependant on how long you want it to effect for, then when its done, have a curve ease out of it
+- you could enable and disable this volume soflty to make it ease in and out from scripting graph once it's done
+
+Outline
+- we get the normal vector and want to multipky it to a thickness
+- once you do that, then you need to add it to a world position based on the item hovered over
+- and you input that to the position vertex with a color node on base color
+- when it comes to changing it when its being hovered over, you can have the shader only effect a certain layer (which could be outline)
+- so when its hovered over (the block), the outline layer will be switched to, and the mesh material can be set as active
+- when its hovered off of, it is turned back to the default 
+
+
  
