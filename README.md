@@ -191,7 +191,23 @@ https://github.com/JNightmareC/VerticalSlice/commit/ef7c86d1b993b9e0dc9e51651483
 ## Week 10
 
 ### Activity 1
+
+What's new: 
+
+
+I had to change the ability for how the player is able to grab onto and move the wooden box. Another thing I added was the togled sound effect, and music in the overworld.
+
+
+[Itch](https://jnightmarec.itch.io/my-darling-star)
+
+
+Playtest goal:
+
 - Testing shaders for bugs 
+
+
+Playtest notes: 
+
 
 - Noticed a bug where the gummy worm doesn't give you the correct dialogue node 
 - She liked the outline shader 
