@@ -208,12 +208,16 @@ https://github.com/JNightmareC/VerticalSlice/commit/ef7c86d1b993b9e0dc9e51651483
 I would say in general, breaking down your game into bubles would work best, along with making a comprehensive breakdown of how to set up the main systems of the main mechanics help a lot. Game designers can use the bubbles to lay down the most complex systems or game objects they might have, and in those bubbles, they give very breifly what each would need in order to function. If bubbles seem to big, they should separate them even further to be more specific after writing the base down. Then after, players should make arrows with notes that lead into other bubles that interact with the main. After this, I would say using a step by step breakdown of the main unity systems you would need to use would be beneficial, but of the main mechanics only to get a gauge of how intesnsive the meat of your work will be. You can see how long your plan for that mechanics will be based on how long his steps are. 
 
 #### How planning effects scope
+
 Planning effects scope by showing you, the designer, how much time you actually have to complete everything you have to do. If you are able to plan, you are able to refect and see if all things you have are reasonable to complete. That is via seeing the steps you'd need to go through, the ammount of bubbles you'd need to make and add content to, and the ammount of connections through the whole system. 
+
 
 
 ### Activity 3
 
 Today, I fixed three errors on my slice. My the first fix of the day was re-checking an issue with grabbing the gummy worm so that now the dialouge nodes work and enter correctly. The next issue I fixed was one where players could climb onto an object they weren't suposed to climb onto. The last thing I fixed was a button UI issue that was stopping players from hovering over them so now they highligt and track correctly.
+
+[Here is the github link](https://github.com/JNightmareC/VerticalSlice/commit/1cf2fa9f5d67cf050c74341aa3d879230772e153)
 
 
 
